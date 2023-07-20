@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-ci-cd</finalName>
 	</build>
 
 </project>
