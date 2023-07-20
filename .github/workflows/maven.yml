@@ -17,12 +17,7 @@ on:
 jobs:
   build:
 
-    print-token:
-      permissions: write-all
-      name: print-token
-      environment: dev
-      # needs: pre-pkr
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
